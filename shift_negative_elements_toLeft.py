@@ -1,6 +1,7 @@
 import copy
 
 arr = [1,2,3,5,9,7,6,-18,-3,-6,-77,8,50,-90,-65,44,-44]
+# making a copy to verify with the original list in the end, as such not needed for carrying out this operation
 arr2 = copy.deepcopy(arr)
 
 ptr = 0
@@ -20,5 +21,6 @@ for index in range(len(arr)):
     ptr += 1
 print(arr)
 
+# Un-comment the following to verify that no element has been lost during the operation.
 #print(len(arr) - len(arr2))
 #print(set(arr2) - set(arr))
