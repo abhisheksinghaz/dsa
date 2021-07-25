@@ -2,7 +2,7 @@
 Practicing questions
 
 
-**Arrays:**
+<h4>Arrays:</h4>
 
 
 0 - Reverse a given array.
@@ -24,7 +24,7 @@ shift_negative_elements_toLeft.py
 6-cyclically_rotate_array.py
 
 
-Strings:
+<h4>Strings:</h4>
 
 0 - Reverse a string. 
 1-reverse_a_string.py, reverse_string.py
@@ -36,7 +36,7 @@ Strings:
 print_duplicate_character.py, print_duplicate_character_OOPs.py
 
 
-Random:
+<h4>Random:</h4>
 
 
 Swap the value of two int or float variables without using any other variable.
