@@ -1,5 +1,5 @@
 # dsa
-Practicing questions
+<h3>Practicing questions</h3>
 
 
 <h4>Arrays:</h4>
