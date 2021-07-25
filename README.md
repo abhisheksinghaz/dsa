@@ -2,10 +2,12 @@
 Practicing questions
 
 
-Arrays:
+**Arrays:**
 
 
 0 - Reverse a given array.
+1-reverse_a_string.py, reverse_string.py
+
 1 - Find the maximum and minimum element in an array.
 1-min_max_from_array.py
 
