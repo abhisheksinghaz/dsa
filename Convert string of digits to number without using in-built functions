@@ -1,0 +1,37 @@
+str1 = "-010200300045"
+def atoi(str1):
+  num = 0
+  isneg = True if str1[0] == "-" else False
+  str1 = str1[1:] if isneg else str1
+
+  for i in str1:
+    if num:
+      num *= 10
+    if i == "0":
+      pass
+    elif i == "1":
+      num += 1
+    elif i == "2":
+      num += 2
+    elif i == "3":
+      num += 3
+    elif i == "4":
+      num += 4
+    elif i == "5":
+      num += 5
+    elif i == "6":
+      num += 6
+    elif i == "7":
+      num += 7
+    elif i == "8":
+      num += 8
+    elif i == "9":
+      num += 9
+    else:
+      return ("The sting contains non-digit values also")
+  if isneg:
+    num = -1 * num
+  return(num)
+
+print(atoi(str1))
+# print(type(atoi(str1)))
